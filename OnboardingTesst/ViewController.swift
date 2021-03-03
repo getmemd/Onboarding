@@ -29,9 +29,7 @@ class ViewController: UIViewController {
                   Slide(title: "Ваши данные удалятся после карантина", description: "Ваши данные будут удалены после окончания пандемии COVID-19", image: #imageLiteral(resourceName: "0000-4")),
                   Slide(title: "Оставайтесь в курсе", description: "Будьте в курсе последних новостей Казахстана и всего мира на тему коронавируса", image: #imageLiteral(resourceName: "0000-5"))
         ]
-        pageControl.numberOfPages = slides.count
-//        startTimer()
-        
+        pageControl.numberOfPages = slides.count        
     }
 
     @objc func scrollToNextCell(){
@@ -40,10 +38,6 @@ class ViewController: UIViewController {
         let indexPath = IndexPath(item: currentPage, section: 0)
         collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
     }
-    
-//    func startTimer() {
-//        _ = Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(scrollToNextCell), userInfo: nil, repeats: true);
-//    }
     
     @IBAction func nextButtonClicked(_ sender: UIButton) {
         if currentPage == slides.count - 1 {

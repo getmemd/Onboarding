@@ -14,7 +14,6 @@ class OnboardingCollectionViewCell: UICollectionViewCell {
     static let identifier = String(describing: OnboardingCollectionViewCell.self)
     
     func setup(_ slide: Slide) {
-        print(slide)
         slideTitle.text = slide.title
         slideDescription.text = slide.description
         slideImage.image = slide.image
