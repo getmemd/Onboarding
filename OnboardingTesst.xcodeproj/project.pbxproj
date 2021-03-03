@@ -13,6 +13,8 @@
 		C5273B1125EF707100050816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5273B0F25EF707100050816 /* Main.storyboard */; };
 		C5273B1325EF707200050816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5273B1225EF707200050816 /* Assets.xcassets */; };
 		C5273B1625EF707200050816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5273B1425EF707200050816 /* LaunchScreen.storyboard */; };
+		C5E3119425EF881700D09CFA /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E3119325EF881700D09CFA /* Slide.swift */; };
+		C5E3119A25EF975800D09CFA /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E3119925EF975800D09CFA /* OnboardingCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C5273B1225EF707200050816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5273B1525EF707200050816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5273B1725EF707200050816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E3119325EF881700D09CFA /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		C5E3119925EF975800D09CFA /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				C5273B0925EF707100050816 /* AppDelegate.swift */,
 				C5273B0B25EF707100050816 /* SceneDelegate.swift */,
 				C5273B0D25EF707100050816 /* ViewController.swift */,
+				C5E3119925EF975800D09CFA /* OnboardingCollectionViewCell.swift */,
+				C5E3119325EF881700D09CFA /* Slide.swift */,
 				C5273B0F25EF707100050816 /* Main.storyboard */,
 				C5273B1225EF707200050816 /* Assets.xcassets */,
 				C5273B1425EF707200050816 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			files = (
 				C5273B0E25EF707100050816 /* ViewController.swift in Sources */,
 				C5273B0A25EF707100050816 /* AppDelegate.swift in Sources */,
+				C5E3119A25EF975800D09CFA /* OnboardingCollectionViewCell.swift in Sources */,
 				C5273B0C25EF707100050816 /* SceneDelegate.swift in Sources */,
+				C5E3119425EF881700D09CFA /* Slide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
